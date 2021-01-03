@@ -12,7 +12,7 @@ import (
 
 func sayHello(res http.ResponseWriter, req *http.Request) {
 	res.Header().Set("Content-Type", "text/html; charset=utf-8")
-    fmt.Fprint(res, `<h1>Hello You!</h1>`)
+    fmt.Fprint(res, `<h2>Hello You!</h2>`)
 }
 
 func main() {
